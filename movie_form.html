@@ -1,0 +1,107 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+    <style>
+        #top h1{
+            background-color: rgba(73, 155, 255, 0.865);
+            color: #ffffff;
+            padding: 15px;
+        }
+        input[type=text],input[type=number], select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            width: 100%;
+            background-color: rgba(73, 155, 255, 0.865);
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: rgba(73, 155, 255, 0.865);
+        }
+        #main {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+        textarea{
+            width: 100%;
+			height: 200px;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+			font-size: 16px;
+			resize: both;
+        }
+        img{
+            display: block;
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        button{
+            display: block;
+            position: relative;
+            margin-left: auto;
+            background-color: rgba(73, 155, 255, 0.865);
+            padding: 5px;
+            color: #ffffff;
+            border: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <div id="top">
+        <h1> Movie Note</h1>
+        <button type="button" onclick="location.href='movie_list.php'">Go Back To List</button>
+    </div>
+    <div id="main">
+        <form name="form1" onsubmit="return validateForm()" action="movie_save.php" method="POST">
+            <fieldset>
+                <legend>MOVIE INFO</legend>
+                <label for="name">Movie name:</label><br>
+                <input type="text" name="name" ><br>
+                <label for="director">Director:</label><br>
+                <input type="text" name="director" ><br>
+                <label for="cast">Cast:</label><br>
+                <input type="text" name="cast" ><br>
+                <label for="genre">Genre:</label><br>
+                <select name="genre">
+                    <optgroup label="choose genre of this movie">
+                        <option value="Drama">drama</option>
+                        <option value="Romance">romance</option>
+                        <option value="Action">action</option>
+                        <option value="Fantasy">fantasy</option>
+                        <option value="Comedy">comedy</option>
+                        <option value="SF">SF</option>
+                        <option value="Art">art</option>
+                        <option value="ETC">etc</option>
+                    </optgroup>
+                </select> <br>
+                <label for="review">One-line Review:</label><br>
+                <input type="text" name="review" ><br>
+            </fieldset> <br>
+            <input type='submit' value="Save">
+        </form>
+    </div>
+</body>
+</html>
