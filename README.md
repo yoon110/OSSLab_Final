@@ -1,8 +1,6 @@
 # _OSSLab Final Project_
 # Movie Note
 
-<img src="https://user-images.githubusercontent.com/79903077/173017114-393c7d99-871b-418d-bdfe-640515c44b1b.png">
-
 ## What does this project do? 
 This project create a web page where you can record a video moment. 
 You can write down movie name, director, cast, genre, and one-line review on this page.
@@ -33,6 +31,12 @@ sudo cp ./code/* /var/www/html
 http:// {your server ip}
 ```
 6. You can see the list page and use it!
+
+<img src="https://user-images.githubusercontent.com/79903077/173019292-173495c7-7049-4f78-af28-e1b57be483b0.png">
+
+<img src="https://user-images.githubusercontent.com/79903077/173019536-3ea89ec6-3b00-468c-97fd-5b1a3ce82592.png">
+
+<img src="https://user-images.githubusercontent.com/79903077/173019616-0c7162f2-72d8-4dda-8643-c2406fb6dcf0.png">
 
 ## Where can people get more help, if needed? 
 You can contact me by email: 22000706@handong.ac.kr
