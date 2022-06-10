@@ -38,6 +38,9 @@ http:// {your server ip}
 
 <img src="https://user-images.githubusercontent.com/79903077/173019616-0c7162f2-72d8-4dda-8643-c2406fb6dcf0.png">
 
+## Presentation
+Link: https://youtu.be/kkIAk3Z23kU
+
 ## Where can people get more help, if needed? 
 You can contact me by email: 22000706@handong.ac.kr
 
