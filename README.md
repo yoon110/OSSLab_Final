@@ -1,6 +1,8 @@
 # _OSSLab Final Project_
 # Movie Note
 
+<img src="https://user-images.githubusercontent.com/79903077/173017114-393c7d99-871b-418d-bdfe-640515c44b1b.png">
+
 ## What does this project do? 
 This project create a web page where you can record a video moment. 
 You can write down movie name, director, cast, genre, and one-line review on this page.
